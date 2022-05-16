@@ -1,13 +1,11 @@
-package com.example.skutapplication
+package com.example.skutapplication.view.main
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.text.Html
-import android.text.Html.FROM_HTML_MODE_LEGACY
 import androidx.appcompat.app.AppCompatActivity
-import com.example.skutapplication.databinding.ActivitySplashScreenBinding
+import com.example.skutapplication.R
 
 class SplashScreenActivity : AppCompatActivity() {
     private val duration : Long = 3000
